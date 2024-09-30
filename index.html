@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Random Image Generator And Counter</h1>
+    </header>
+
+    <main>
+
+        <div class="section1">
+            <div><img src="" alt="" id="image1" onclick="do_animation(event)"></div>
+            <div><img src="" alt="" id="image2" onclick="do_animation(event)"></div>
+            <div><img src="" alt="" id="image3" onclick="do_animation(event)"></div>
+        </div>
+
+
+
+        <div class="button">
+            <button type="button" onclick="handleClick()">
+                Click Button
+            </button>
+        </div>
+
+        <div class="section3">
+
+            <div class="timeout">
+                <p>Timeout(500-10000ms)</p>
+                <input type="text" id="input" onchange="getInput(event)" value="2500"> 
+            </div>
+
+
+            <div class="timeleft">
+                <p>Time until Automatic Refresh: <span id="timer"></span></p>
+            </div>
+
+
+            <div class="imagecounter"><p>Image has updated <span id="refresh">0</span> times.</p></div>
+
+
+        </div>
+
+
+    </main>
+
+    <footer>
+        <h3>&copy; Varinder Singh </h3>
+        <h5>Student Number:- 000932959</h5>
+    </footer>
+
+</body>
+
+</html>
